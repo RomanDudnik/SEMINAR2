@@ -54,11 +54,11 @@ void Cratnost(int num, int a, int b)       //метод для проверки 
 {
     if(num % a == 0 && num % b == 0)           //проверка на кратнось
     {
-        Console.WriteLine($"Your number {num} is multirle of {a} and {b}");
+        Console.WriteLine($"Your number {num} is multiple of {a} and {b}");
     }
     else 
     {
-        Console.WriteLine($"Your number {num} is not multirle of {a} and {b}");
+        Console.WriteLine($"Your number {num} is not multiple of {a} and {b}");
     }    
 }
 //Запрос данных у пользователя
@@ -71,9 +71,9 @@ int divider1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter your 2 divider: ");
 int divider2 = Convert.ToInt32(Console.ReadLine());
 //Вызов метода
-Cratnost(user_num, divider1, divider2);               //вызываем метод в самой программе
+Cratnost(user_num, divider1, divider2);    //вызываем метод в самой программе, 
+//аргументы указываем в том порядке в котором они указханы в самом методе
 */
-
 //Написать программу, которая выводит случайное трехзначное число и удаляет вторую цифру этого числа.
 //456 -> 46, 789 -> 79
 /*
